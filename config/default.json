@@ -1,7 +1,11 @@
 {
   "shop": {
+    "name": "Horner's Corner",
     "language": "en",
-    "currency": "USD"
+    "timezone": "America/Chicago",
+    "currency": "USD",
+    "weightUnit": "lbs",
+    "homeUrl": "http://localhost:3000"
   },
   "system": {
     "extensions": [
@@ -11,6 +15,30 @@
         "enabled": true
       }
     ],
-    "theme": "sample"
+    "theme": "syrupTheme"
+  },
+  "themeConfig": {
+    "logo": {
+      "alt": "My Shop Logo",
+      "src": "/hornerscornerlogo.png",
+      "width": 125,
+      "height": 125
+    },
+    "headTags": {
+      "links": [
+        { "rel": "icon", "href": "/favicon.ico", "type": "image/x-icon" }
+      ],
+      "metas": [
+        { "name": "viewport", "content": "width=device-width, initial-scale=1" }
+      ],
+      "scripts": [
+        { "src": "/custom.js", "async": true }
+      ],
+      "bases": [
+        { "href": "/" }
+      ]
+    },
+    "copyRight": "© 2025 My Shop. All Rights Reserved."
   }
+  
 }

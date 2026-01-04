@@ -15,6 +15,8 @@ import e22df6f848f3d1213d4df761327012cf1 from 'file:///C:/Projects/Horners%20Cor
 import ee2df4ae7822c17fc340797949ea606c3 from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/node_modules/@evershop/evershop/dist/modules/customer/pages/frontStore/all/CustomerIcon.js';
 import e1cf08ff61d67849390cd43b70c6784bd from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/extensions/sample/dist/pages/frontStore/all/FreeShippingMessage.js';
 import eb3539cb8d47df0c233b334dcf60053bb from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/extensions/sample/dist/pages/frontStore/homepage/FooList.js';
+import ed7bd865f6145a06da59ad674365d2572 from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/themes/sample/dist/pages/all/EveryWhere.js';
+import e14e76e2f13aab4aed6a23da8cd0df2e2 from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/themes/sample/dist/pages/homepage/OnlyHomePage.js';
 import collection_products from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/node_modules/@evershop/evershop/dist/modules/catalog/components/CollectionProducts.js';
 import text_block from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/node_modules/@evershop/evershop/dist/modules/cms/components/TextBlock.js';
 import basic_menu from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/node_modules/@evershop/evershop/dist/modules/cms/components/BasicMenu.js';
@@ -48,6 +50,16 @@ Area.defaultProps.components = {
       id: 'eb3539cb8d47df0c233b334dcf60053bb',
       sortOrder: 30,
       component: { default: eb3539cb8d47df0c233b334dcf60053bb }
+    },
+    ed7bd865f6145a06da59ad674365d2572: {
+      id: 'ed7bd865f6145a06da59ad674365d2572',
+      sortOrder: 20,
+      component: { default: ed7bd865f6145a06da59ad674365d2572 }
+    },
+    e14e76e2f13aab4aed6a23da8cd0df2e2: {
+      id: 'e14e76e2f13aab4aed6a23da8cd0df2e2',
+      sortOrder: 10,
+      component: { default: e14e76e2f13aab4aed6a23da8cd0df2e2 }
     }
   },
   head: {

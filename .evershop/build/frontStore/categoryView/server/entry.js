@@ -13,6 +13,7 @@ import e175b3a1c62f8d22055ec4afe0a6ee396 from 'file:///C:/Projects/Horners%20Cor
 import e22df6f848f3d1213d4df761327012cf1 from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/node_modules/@evershop/evershop/dist/modules/checkout/pages/frontStore/all/MiniCartIcon.js';
 import ee2df4ae7822c17fc340797949ea606c3 from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/node_modules/@evershop/evershop/dist/modules/customer/pages/frontStore/all/CustomerIcon.js';
 import e1cf08ff61d67849390cd43b70c6784bd from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/extensions/sample/dist/pages/frontStore/all/FreeShippingMessage.js';
+import ed7bd865f6145a06da59ad674365d2572 from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/themes/sample/dist/pages/all/EveryWhere.js';
 import collection_products from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/node_modules/@evershop/evershop/dist/modules/catalog/components/CollectionProducts.js';
 import text_block from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/node_modules/@evershop/evershop/dist/modules/cms/components/TextBlock.js';
 import basic_menu from 'file:///C:/Projects/Horners%20Corner/horners-corner-evershop-app/node_modules/@evershop/evershop/dist/modules/cms/components/BasicMenu.js';
@@ -47,6 +48,11 @@ Area.defaultProps.components = {
       id: 'e175b3a1c62f8d22055ec4afe0a6ee396',
       sortOrder: 10,
       component: { default: e175b3a1c62f8d22055ec4afe0a6ee396 }
+    },
+    ed7bd865f6145a06da59ad674365d2572: {
+      id: 'ed7bd865f6145a06da59ad674365d2572',
+      sortOrder: 20,
+      component: { default: ed7bd865f6145a06da59ad674365d2572 }
     }
   },
   head: {
