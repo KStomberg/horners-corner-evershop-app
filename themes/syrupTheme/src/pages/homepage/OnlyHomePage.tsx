@@ -3,16 +3,13 @@ import React from 'react';
 export default function OnlyHomePage() {
   return (
     <div className="container mx-auto px-4 py-8 bg-gray-100 rounded-lg shadow-md mt-10">
-      <h1 className="font-bold text-center mb-6">Home Page Only</h1>
+      <h1 className="font-bold text-center mb-6">Welcome to Horner's Corner!</h1>
       <p className=" text-gray-700 text-center">
-        This component is only rendered on the home page.
+        Here is where we will put our history, when I have written it!
       </p>
+      {/* Copy Needed */}
       <p className=" text-gray-700 text-center">
-        You can modify this component at{' '}
-        <code>`themes/sample/src/pages/homepage/OnlyHomePage.tsx`</code>
-      </p>
-      <p className=" text-gray-700 text-center">
-        You can also remove this by disabling the theme `sample`.
+        Maybe some history about how maple syrup is produced
       </p>
     </div>
   );
